@@ -1,0 +1,25 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+# Build output
+/dist
+
+# Generated Prisma clients
+/generated
+/src/generated
+
+# Environment secrets
+.env
+.env.*
+
+# Keep the example environment file
+!.env.example
+# AI assistant configuration files
+.agents/
+.claude/
+.windsurf/
+
+# TypeScript build cache
+*.tsbuildinfo
